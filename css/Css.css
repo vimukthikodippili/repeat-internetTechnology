@@ -1,0 +1,113 @@
+body{
+margin: 0;
+}
+nav{
+    position: fixed;
+    height: 40px;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.nave-content>ul>li{
+display: inline-block;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.nav-navebar{
+    padding-top: 60px;
+    background-color: black;
+    height: 40px;
+    width: 100vw;
+
+
+}
+.w3-light-grey{
+    color: gainsboro;
+    padding-right: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/*.picture-section{*/
+/*    border: 1px black;*/
+/*    width: 400%;*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*}*/
+/*section>div:nth-child(1){*/
+/*    background: url("../assets/furniture 1.jpg");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+/*section>div:nth-child(2){*/
+/*    background: url("../assets/furniture 2.jpg");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+/*section>div:nth-child(3){*/
+/*    background: url("../assets/furniture 3.jpg");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+
+
+.image-div {
+    background-image: url("../assets/furniture 1.jpg");
+    position: absolute;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 150px;
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 50%;*/
+}
+.div-conatct{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    /*padding: revert;*/
+    /*margin-bottom: 10px;*/
+    /*position: fixed;*/
+    /*display: flex;*/
+    /*justify-content: initial;*/
+
+    /*background-color: black;*/
+    /*height: 40vh;*/
+    /*width: 100vw;*/
+    
+    /*float: left;*/
+    /*display: block;*/
+    /*color: black;*/
+    /*text-align: center;*/
+    /*padding: 14px 16px;*/
+    /*text-decoration: none;*/
+    /*font-size: 17px;*/
+    
+}
+.div-details>h2{
+   /*color: gainsboro ;*/
+   /* display: inline-block;*/
+   /* justify-content: space-between;*/
+   /* justify-items: center;*/
+   /* flex-direction: column;*/
+    color: gainsboro;
+    padding-right: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
