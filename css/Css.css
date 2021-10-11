@@ -73,8 +73,10 @@ display: inline-block;
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    top: 500px;
+    width: 100vw;
+    height: 15vh;
+
 
     /*padding: revert;*/
     /*margin-bottom: 10px;*/
@@ -104,10 +106,56 @@ display: inline-block;
     color: gainsboro;
     padding-right: 10px;
     margin-right: 10px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
 
 }
+/*.section-company:nth-child(1){*/
+/*    background-image: url("../assets/furniture 2.jpg");*/
+/*    position: center;*/
+/*    padding: 300px;*/
+/*}*/
 
 
+.div-example>p{
+    top: 600px;
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 15vh;
 
+}
+.div-paragraph>div:nth-child(1){
+    background-image: url("../assets/furniture 2.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    position: fixed;
+    top: 670px;
+}
+.div-paragraph>div:nth-child(2)>p{
+    display: flex;
+    position: fixed;
+    top: 670px;
+    left: 250px;
+}
+.div-location>div:nth-child(1){
+    background-image: url("../assets/map damro.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    position: fixed;
+    top: 950px;
+}
+.div-location>div:nth-child(2){
+    position: fixed;
+    display: flex;
+    top: 950px;
+    left: 300px;
+}
