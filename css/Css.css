@@ -75,7 +75,7 @@ display: inline-block;
     position: fixed;
     top: 500px;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
 
 
     /*padding: revert;*/
@@ -158,4 +158,71 @@ display: inline-block;
     display: flex;
     top: 950px;
     left: 300px;
+}
+.div-bed>div:nth-child(1){
+    background-image: url("../assets/bed 2.jpg");
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    position: fixed;
+    top: 1260px;
+}
+.div-bed>div:nth-child(1)>h3{
+    color: aqua;
+    position: fixed;
+    display: flex;
+    top: 1350px;
+}
+.div-bed>div:nth-child(2){
+    background-image: url("../assets/bed 3.jpg");
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    position: fixed;
+    top: 1260px;
+    left: 200px;
+
+}
+.div-bed>div:nth-child(2)>h3{
+    color: aqua;
+    position: fixed;
+    display: flex;
+    top: 1350px;
+    left: 200px;
+}
+.div-bed>div:nth-child(3){
+    background-image: url("../assets/bed 4.jpg");
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    position: fixed;
+    top: 1260px;
+    left: 400px;
+}
+.div-bed>div:nth-child(3)>h3{
+    color: aqua;
+    position: fixed;
+    display: flex;
+    top: 1359px;
+    left: 400px;
+}
+.div-beddescription1>div:nth-child(1){
+    background-image: url("../assets/bed 2.jpg");
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    position: fixed;
+    top: 1500px;
+
+
+}
+.div-beddescription1>div:nth-child(2)>p{
+    display: flex;
+    position: fixed;
+    top: 1500px;
+    left: 150px;
 }
