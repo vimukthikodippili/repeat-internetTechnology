@@ -169,6 +169,472 @@ position: absolute;
     top: 1500px;
     left: 150px;
 }
+@media all and (max-width: 320px){
+    nav {
+        position: fixed;
+        background-color: gray;
+        height: 7vh;
+        width: 98vw;
+    }
+    .nave-content>ul>li {
+        display: table-cell;
+        justify-content: space-between;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .nav-navebar {
+        padding-top: 80px;
+        background-color: black;
+        height: 244px;
+        width: 98vw;
+    }
+    .w3-light-grey {
+        color: green;
+        padding-right: 10px;
+        margin-right: 10px;
+        display: grid;
+        justify-content: start;
+    }
+    .image-div {
+
+        position: absolute;
+        background-size: cover;
+        left: -150px;
+        width: 320px;
+        height: 167px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .div-details>h2 {
+        color: gainsboro;
+        padding-right: 10px;
+        margin-right: 10px;
+        display: contents;
+        justify-content: space-between;
+    }
+    .div-paragraph>div:nth-child(1) {
+
+        width: 250px;
+        height: 181px;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        position: absolute;
+        top: 566px;
+    }
+    .div-paragraph>div:nth-child(2)>p {
+        display: flex;
+        position: absolute;
+        top: 731px;
+        left: 3px;
+    }
+    .div-location>div:nth-child(1) {
+
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        position: absolute;
+        top: 1024px;
+    }
+    .div-location>div:nth-child(2) {
+        position: absolute;
+        display: flex;
+        top: 1269px;
+        left: 21px;
+    }
+    .div-bed>div:nth-child(2) {
+
+        width: 150px;
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        position: absolute;
+        top: 1469px;
+        left: 1px;
+    }
+    .div-bed>div:nth-child(3) {
+        width: 150px;
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        position: absolute;
+        top: 1570px;
+        left: 1px;
+    }
+    .div-beddescription1>div:nth-child(1) {
+
+        width: 150px;
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        position: absolute;
+        top: 1802px;
+    }
+    .div-beddescription1>div:nth-child(2)>p {
+        display: flex;
+        position: absolute;
+        top: 1896px;
+        left: 4px;
+    }
 
 
+}
+@media all  and (max-width: 350px){
+    nav {
+        position: fixed;
+        background-color: gray;
+        height: 11vh;
+        width: 131vw;
+    }
+    .nav-navebar {
+        padding-top: 80px;
+        background-color: black;
+        height: 66px;
+        width: 131vw;
+    }
+    .w3-light-grey {
+        color: green;
+        padding-right: 10px;
+        margin-right: 10px;
+        display: contents;
+        justify-content: space-between;
+    }
+    .image-div {
 
+        position: absolute;
+        background-size: cover;
+        width: 465px;
+        height: 347px;
+        left: -150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .div-conatct {
+        overflow: hidden;
+        background-color: #333;
+        top: 500px;
+        width: 131vw;
+        height: 10vh;
+        position: absolute;
+    }
+    .div-location>div:nth-child(1) {
+
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        position: absolute;
+        top: 1176px;
+    }
+    .div-location>div:nth-child(2) {
+        position: absolute;
+        display: flex;
+        top: 1186px;
+        left: 277px;
+    }
+    .div-paragraph>div:nth-child(1) {
+
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        position: absolute;
+        top: 560px;
+    }
+    .div-paragraph>div:nth-child(2)>p {
+        display: flex;
+        position: absolute;
+        top: 543px;
+        left: 290px;
+    }
+    .div-bed>div:nth-child(2) {
+
+        width: 150px;
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        position: absolute;
+        top: 1547px;
+        left: 2px;
+    }
+    .div-bed>div:nth-child(3) {
+
+        width: 150px;
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        position: absolute;
+        top: 1652px;
+        left: -3px;
+    }
+    .div-beddescription1>div:nth-child(1) {
+
+        width: 150px;
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        position: absolute;
+        top: 2003px;
+    }
+    .div-beddescription1>div:nth-child(2)>p {
+        display: flex;
+        position: absolute;
+        top: 1985px;
+        left: 178px;
+    }
+
+}
+@media all and (max-width: 400px){
+    nav {
+        position: fixed;
+        background-color: gray;
+        height: 9vh;
+        width: 169vw;
+
+    }
+    .nav-navebar {
+        padding-top: 80px;
+        background-color: black;
+        height: 67px;
+        width: 169vw;
+    }
+    .w3-light-grey {
+        color: green;
+        padding-right: 10px;
+        margin-right: 10px;
+        display: flow-root;
+        justify-content: space-between;
+    }
+    .image-div {
+
+        position: absolute;
+        background-size: cover;
+        width: 681px;
+        height: 357px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: -7px;
+    }
+    .div-conatct {
+        overflow: hidden;
+        background-color: #333;
+        top: 512px;
+        width: 169vw;
+        height: 10vh;
+        position: absolute;
+    }
+    .div-paragraph>div:nth-child(1) {
+
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        position: absolute;
+        top: 619px;
+    }
+    .div-paragraph>div:nth-child(2)>p {
+        display: inline-table;
+        position: absolute;
+        top: 604px;
+        left: 290px;
+    }
+    .div-beddescription1>div:nth-child(2)>p {
+        display: inline-table;
+        position: absolute;
+        top: 1473px;
+        left: 233px;
+    }
+
+}
+@media all and (max-width: 450px){
+    nav {
+        position: fixed;
+        background-color: gray;
+        height: 8vh;
+        width: 150vw;
+    }
+    .nav-navebar {
+        padding-top: 80px;
+        background-color: black;
+        height: 61px;
+        width: 150vw;
+    }
+    .w3-light-grey {
+        color: green;
+        padding-right: 10px;
+        margin-right: 10px;
+        display: flow-root;
+        justify-content: space-between;
+    }
+    .image-div {
+
+        position: absolute;
+        background-size: cover;
+        width: 680px;
+        height: 353px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: -6px;
+    }
+    .div-conatct {
+        overflow: hidden;
+        background-color: #333;
+        top: 500px;
+        width: 150vw;
+        height: 10vh;
+        position: absolute;
+    }
+    .div-paragraph>div:nth-child(1) {
+
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        position: absolute;
+        top: 594px;
+    }
+    .div-paragraph>div:nth-child(2)>p {
+        display: inline-table;
+        position: absolute;
+        top: 575px;
+        left: 290px;
+    }
+    .div-beddescription1>div:nth-child(2)>p {
+        display: flex;
+        position: absolute;
+        top: 1500px;
+        left: 175px;
+    }
+
+
+}
+@media all and (max-width: 500px){
+    nav {
+        position: fixed;
+        background-color: gray;
+        height: 8vh;
+        width: 200vw;
+    }
+    .nav-navebar {
+        padding-top: 80px;
+        background-color: black;
+        height: 66px;
+        width: 135vw;
+    }
+    .w3-light-grey {
+        color: green;
+        padding-right: 10px;
+        margin-right: 10px;
+        display: contents;
+        justify-content: space-between;
+    }
+    .image-div {
+
+        position: absolute;
+        background-size: cover;
+        width: 680px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: -5px;
+    }
+    .div-conatct {
+        overflow: hidden;
+        background-color: #333;
+        top: 500px;
+        width: 135vw;
+        height: 10vh;
+        position: absolute;
+    }
+    .div-paragraph>div:nth-child(2)>p {
+        display: inline-table;
+        position: absolute;
+        top: 670px;
+        left: 290px;
+    }
+    .div-beddescription1>div:nth-child(2)>p {
+        display: flex;
+        position: absolute;
+        top: 1500px;
+        left: 176px;
+    }
+
+}
+@media all and (max-width: 550px){
+    nav {
+        position: fixed;
+        background-color: gray;
+        height: 8vh;
+        width: 123vw;
+    }
+    .nav-navebar {
+        padding-top: 80px;
+        background-color: black;
+        height: 40px;
+        width: 123vw;
+    }
+    .w3-light-grey {
+        color: green;
+        padding-right: 10px;
+        margin-right: 10px;
+        display: initial;
+        justify-content: space-between;
+    }
+    .image-div {
+
+        position: absolute;
+        background-size: cover;
+        width: 682px;
+        height: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: -8px;
+    }
+    .div-conatct {
+        overflow: hidden;
+        background-color: #333;
+        top: 500px;
+        width: 123vw;
+        height: 10vh;
+        position: absolute;
+    }
+    .div-paragraph>div:nth-child(2)>p {
+        display: inline-table;
+        position: absolute;
+        top: 632px;
+        left: 290px;
+    }
+    .div-beddescription1>div:nth-child(2)>p {
+        display: flex;
+        position: absolute;
+        top: 1500px;
+        left: 170px;
+    }
+
+}
