@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Dumro Furniture</title>
 <link rel="stylesheet" href="css/Css.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -38,10 +39,21 @@
 <div class="nav-navebar">
     <<div class="w3-bar w3-light-grey">
     <label class="nave-product">product</label>
+    <div class="dropdown">
+        <button id="myBtn" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#home">air condition</a>
+            <a href="#40000">beds</a>
+            <a href="#contact">bed sheets</a>
+            <a href="#contact">blender and mixture</a>
+            <a href="#contact">living room</a>
+        </div>
+    </div>
 
     <select class="pruduct">
         <option value="volvo">air coditioner</option>
-        <option value="saab"  >beds</option>
+<        <option value="beds"  id="bedsnk" >beds</option>-->
+
         <option value="mercedes">bed sheets</option>
         <option value="audi">blender and mixture</option>
     </select>
@@ -141,7 +153,7 @@
 </div>
 <div class="div-bed" id="beds">
     <div><h3> rs 30 000</h3></div>
-    <div><h3>rs 40 000</h3></div>
+    <div id="40000"><h3>rs 40 000</h3></div>
     <div><h3>rs 50 000</h3></div>
 
 </div>
@@ -163,7 +175,16 @@
     </div>
 
 </div>
+<script src="js/Js.js"></script>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script>
+    // Get the button, and when the user clicks on it, execute myFunction
+    document.getElementById("myBtn").onclick = function() {myFunction()};
 
-
+    /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+</script>
 </body>
 </html>
